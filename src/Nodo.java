@@ -34,4 +34,11 @@ public class Nodo {
 		this.atras = atras;
 	}
 
+	@Override
+	public String toString() {
+		return "Nodo [dato=" + dato + ", adelante=" + adelante + ", atras=" + atras + "]";
+	}
+
+	
+	
 }
